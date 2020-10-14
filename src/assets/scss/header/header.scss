@@ -1,0 +1,23 @@
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-light .navbar-brand {
+  width: 50%;
+  max-width: 150px;
+}
+
+.navbar-top {
+  width: 100%;
+  padding-bottom: 10px;
+  /*border-bottom: solid, 1px, #002878;*/
+}
+
+.top-header-link {
+  font-family: 'Abel';
+  font-size: smaller;
+  color: inherit;
+  font-weight: 300;
+  text-decoration: none;
+}
+
