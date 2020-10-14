@@ -1,0 +1,136 @@
+.btn-cristal-blue {
+  padding: 1rem 2.7rem;
+  font-size: .85rem;
+  border-radius: 40px;
+  position: relative;
+  background-color: rgb(44,155,215);
+  box-shadow: inset 0 -2px 2px rgba(255,255,255,0.45),inset 0 0 20px rgba(255,255,255,0.41), -3rem 0px rgba(255,255,255,0.51), 3rem 0px #2c9bd7;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 0px solid transparent;
+  color: #ffffff;
+  transition: all 0.1s;
+  margin: 2rem;
+}
+
+@media (max-width: 400px){
+
+  .btn-cristal-blue {
+   
+    box-shadow: inset 0 -2px 2px rgba(255,255,255,0.45),inset 0 0 20px rgba(255,255,255,0.41), -3rem 0px rgba(255,255,255,0.51), 3rem 0px #2c9bd7;
+ 
+
+  }
+
+  .btn-cristal-blue:hover {
+    padding: 1rem 2.7rem;
+    box-shadow: inset 0 -2px 2px rgba(255,255,255,0.45);
+    color: #ffffff;
+  }
+
+  .btn-cristal-blue::after {
+    
+    box-shadow: none !important;
+    
+}
+
+.btn-cristal-blue::before {
+  
+  box-shadow: none !important;
+
+}
+
+.btn-cristal-blue:hover::after {
+  box-shadow: none;
+}
+
+
+}
+
+.btn-cristal-blue:hover::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: calc(100%);
+  height: 100%;
+  border-radius: inherit;
+  transform: translate(0rem);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 30px rgba(0,0,0,0.25);
+}
+
+.btn-cristal-blue::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: calc(100% + 6rem);
+  height: 100%;
+  border-radius: inherit;
+  transform: translate(-3rem);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1) ,0 0 30px rgba(0,0,0,0.25);
+  transition: all 0.1s;
+}
+
+.btn-cristal-blue:hover::before {
+  left: 1rem;
+}
+
+.btn-cristal-blue::before {
+  color: #289cdb;
+  position: absolute;
+  top: 50%;
+  left: -2rem;
+  transform: translateY(-50%);
+  background-color: rgb(255,255,255);
+  width: 25px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.12);
+  border-radius: inherit;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f4d8";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  transition: all 0.1s;
+}
+
+.btn-cristal-blue:hover {
+  padding: 1rem 4rem;
+  box-shadow: inset 0 -2px 2px rgba(255,255,255,0.0),inset 0 0 20px rgba(255,255,255,0.41), 0rem 0px #ffffff, 0rem 0px #2c9bd7;
+  color: #ffffff;
+}
+
+
+
+
+
+.btn-animado {
+  background-color: #0470aa;
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 48px;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+ 
+}
+
+.btn-animado:hover {
+  box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
+  background-color: #002878;
+}
+
+@media (min-width: 400px){
+  .btn-animado {
+  
+    background-image: linear-gradient(45deg, #28b2ff 0%, #28b2ff 55%, #11436a 90%);
+    transition: all 0.5s ease;
+  }
+}

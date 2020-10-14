@@ -1,0 +1,62 @@
+.newsletter-subscribe {
+  color: #313437;
+  padding: 10px 0;
+  background-image: url("../../assets/img/half-circle-01.svg");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.newsletter-subscribe p {
+  color: #7d8285;
+  line-height: 1.5;
+}
+
+.newsletter-subscribe h2 {
+  font-size: 27px;
+  /*margin-bottom: 25px;*/
+  /*line-height: 1.5;*/
+  /*padding-top: 0;*/
+  /*margin-top: 0;*/
+  color: rgb(17,67,106);
+  font-weight: 400;
+  font-family: 'Raleway';
+}
+
+.newsletter-subscribe .intro {
+  /*font-size: 119px;*/
+  max-width: 500px;
+  margin: 0 auto 25px;
+  z-index: 6;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px;
+}
+
+.newsletter-subscribe form {
+  justify-content: center;
+}
+
+form .form-control {
+  background: #eff1f4;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 10px;
+  height: 50px;
+  margin-right: 10px;
+  /*min-width: 250px;*/
+  font-size: smaller;
+}
+
+
+
+form .btn-primary {
+  background-color: #055ada !important;
+  color: #fff;
+  outline: none !important;
+}
+

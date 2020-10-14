@@ -1,0 +1,50 @@
+.block-titel {
+  background-color: #FFFFFF;
+  position: relative;
+  background-color: #F3FAFF;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom-left-radius: 70px 70px;
+  border-bottom-right-radius: 70px 70px;
+}
+
+.blocktitel h1 {
+  width: auto;
+}
+
+.puntos-graf {
+  width: 50%;
+  height: 100px;
+  background-size: cover;
+  background-image: url(../../assets/img/dots.svg);
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  /*background-color: red;*/
+}
+
+.puntos {
+  width: 20%;
+  height: auto;
+  background-size: contain;
+  background-image: url(../../assets/img/dots.svg);
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.block-titel h1 {
+  font-size: 3rem;
+  /*font-weight: 300;*/
+  margin-bottom: 0;
+  color: #11436a;
+}
+
+.block-titel p {
+  font-size: .8rem;
+}
+
+.block-titel.no-radius {
+  border-radius: 0px;
+}
+

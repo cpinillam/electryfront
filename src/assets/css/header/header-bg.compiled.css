@@ -1,0 +1,10 @@
+
+
+
+.work-us-parallax {
+  height: 600px;
+  background-image: url("../../img/work-us.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
